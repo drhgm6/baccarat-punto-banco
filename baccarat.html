@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="baccarat.css">
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="baccarat.js"></script>
+
+</head>
+<body>
+<div id="gameboard">
+	<div><h2>Banker</h2><p>Banker Total: <span id="dealerTotal"></span></p></div><div id="dealerHand"></div>
+	<div><h2>Player</h2><p>Player Total: <span id="playerTotal"></span></p></div><div id="playerHand"></div>
+</div>
+<div id="buttons">
+	<div id ="dealbutton" class="button">Deal</div>
+		<label for="wagerbox">Wager: </label>
+	<input id="wagerbox" type="text" label="Wager: " value=25 disabled></input><br>
+	<input id="bankerBet" name="bettype" type="radio" value="bankerBet" checked disabled>
+		<label for="bankerBet">Banker</label><br>
+	<input id="playerBet" name="bettype" type="radio" value="playerBet" disabled>
+		<label for="playerBet">Player</label><br>
+	<input id="egalitieBet" name="bettype" type="radio" value="egalitieBet" disabled>
+		<label for="egalitieBet">Egalitie</label><br>
+</div>
+<div id="results">
+		<p>Player 1 Cash: $<span id="playerGold"></span></p>
+		<p>Current Wager: <span id="wager"></span></p>
+		<h3 id="result"></h3>
+		<canvas id="cashchart" width=300 height=200></canvas>
+</div>
+
+
+</body>
+</html>

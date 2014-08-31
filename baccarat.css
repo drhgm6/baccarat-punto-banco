@@ -1,0 +1,73 @@
+body {
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+}
+
+#dealerHand, #playerHand {
+	width:144px;
+	clear:both;
+	display:inline-block;
+}
+.card {
+	height:50px;
+	width:35px;
+	display:inline-block;
+	border:1px solid black;
+	border-radius:5px;
+	padding:2px;
+	margin:3px;
+	font-size:24px;
+	text-align:center;
+	}
+.card img {
+	margin-right:20px;
+}
+.red {
+	color:red;
+}
+.black {
+	color:black;
+}
+.empty {
+	background-image:url(_img/cb1.png);
+}	
+#output div img {
+	width:19px;
+}	
+.button {
+	background-color:cornflowerblue;
+	width:100px;
+	display:block;
+	padding:5px;
+	margin:5px;
+	color:blue;
+	border-radius:3px;
+	border: 1px solid blue;
+	font-size:12px;
+}	
+
+.button.off {
+	background-color:#ccc;	
+}	
+#gameboard, #buttons, #results {
+	width:300px;
+	display:inline-block;
+}
+	
+body > div {
+	vertical-align:top;
+}
+
+#gameboard div, #gameboard h2 {
+	display:inline-block;
+	clear:none;
+}
+
+#gameboard h2 {
+	width:125px;
+	margin-right:25px;
+	margin:0px 25px 0 0;
+}
+#gameboard p {
+	font-size:12px;
+	line-height:12px;
+}
